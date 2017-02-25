@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Welcome to my Website</title>
+	<!-- Importing CSS file -->
+	<link href="startbootstrap-agency-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="startbootstrap-agency-gh-pages/css/agency.min.css" rel="stylesheet">
+
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Deep Shree</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                       <!-- <a class="page-scroll" href="#services">Services</a> -->
+                       <a href="Resume-DeepShreev1.pdf"
+    					  onclick="openPdf(event, 'Resume-DeepShreev1.pdf', 'newpage.html');">
+    					  Resume
+					   </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me!</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Things I Enjoy</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To My Website!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Learn More About ME! </a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                    <h3 class="section-subheading text-muted">Below listed projects are Designed/Implemented/Tested by me:</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>File Transfer (Client and Server programming) Application</h4>
+                        <p class="text-muted">
+                        <ul style="list-style-type:disc">
+  						<li>The project was done with socket programming in Java on Linux system</li>
+  						<li>Designed project for file transfer from one server computer to client computer</li>
+  						<li>Designed API to enable communication between a client and server process</li>
+  						<li>Crafted a frontend for the application using Java IDE framework</li>
+
+					    </ul></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Library System Program</h4>
+                        <p class="text-muted">
+                        <ul style="list-style-type:disc">
+  						<li>Programmed in C++ on Linux system</li>
+  						<li>Designed object-oriented program with UI and control objects, entity</li>
+  						<li>Allows user to add or removes books from personalized student library profile</li>
+					    </ul></p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Song Database System</h4>
+                        <p>
+                        	<ul style="list-style-type:disc">
+  						<li>VOIP by using Raspberry Pi 2 (ubuntu OS) - Using Asterisk Server</li>
+  						<li>The recording application was programmed in python and shell scripting was written to connect the application to the server.</li>
+  						<li>AThe purpose of this project was to implement a communication service that allows two users to communicate over IP and to record to phone calls whenever they wish to.</li>
+					    </ul></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Fast Track Policy & Claim Services </h4>
+                        <p class="text-muted">
+                        <ul style="list-style-type:disc">
+  						<li>The purpose of this project is to fully design detailed functional requirement that will enable development of a Insurance system. </li>
+  						<li>Designed a web UI based registration application for managers, agents and customers for a insurance company </li>
+  						<li>A JDBC (oracle database) program was written to store new CRUD information or to manipulate existing information.</li>
+  						<li>The backend of the application was purely programmed in Java and frontend was programmed in HTML, JavaScript, Ajax … etc., and other web services tools like servlets. </li>
+					    </ul></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>File transfer app</h4>
+                        <p class="text-muted">
+                        <ul style="list-style-type:disc">
+  						<li>Programmed in Objective C, using xcode software on a IOS platform</li>
+  						<li>The app allows user to transfer file from one device to another over Bluetooth or Wi-Fi network</li>
+					    </ul></p>
+                    </div>
+                </div>
+              <!--  <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                 <img src="startbootstrap-agency-gh-pages/img/MyPic.jpg" class="img-responsive" alt="">
+                    <h2 class="section-heading">Deep Shree</h2>
+                    <h3 class="section-subheading text-muted">Hi!, I am Deep Shree. I studied and graduated with Bachelor in Computer Science from Carleton Univeristy. </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                          <a href="https://www.linkedin.com/in/deep-shree-3265558a?trk=nav_responsive_tab_profile_pic"
+    					  onclick="openPdf(event, 'https://www.linkedin.com/in/deep-shree-3265558a?trk=nav_responsive_tab_profile_pic', 'newpage.html');">
+    					  Connect with me on LinkedIn
+					   	   </a> <br>
+					   	  <a href="https://www.facebook.com/deepShz"
+    					  onclick="openPdf(event, 'https://www.facebook.com/deepShz', 'newpage.html');">
+    					  Connect with me on Facebook
+					   	   </a><br>
+					   	  <a href="https://www.instagram.com/deepshez/"
+    					  onclick="openPdf(event, 'https://www.instagram.com/deepshez/', 'newpage.html');">
+    					  Connect with me on Instagram
+					   	  </a><br>
+					   	  <a href="https://github.com/dShree"
+    					  onclick="openPdf(event, 'https://github.com/dShree', 'newpage.html');">
+    					  Connect with me on Github
+					   	  </a>
+					   	  </li>
+                            <!--
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2009-2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div> 
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>March 2011</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>December 2012</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Things I Enjoy</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                       <!-- <img src="img/team/1.jpg" class="img-responsive img-circle" alt=""> -->
+                        <h4>Writing Codes</h4>
+                        <!--<p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <!--<img src="img/team/2.jpg" class="img-responsive img-circle" alt=""> -->
+                        <h4>Dancing</h4>
+                        <!--<p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <!--<img src="img/team/3.jpg" class="img-responsive img-circle" alt=""> -->
+                        <h4>Teaching kids on Computer Programming</h4>
+                        <!--<p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Thank you for visiting my Website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside 
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://github.com/dShree">
+                        <img class="img-responsive" src="download.png"  height = "20" width  = "20">
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.linkedin.com/in/deep-shree-3265558a?trk=nav_responsive_tab_profile_pic">
+                        <img class="img-responsive" src="images.png"  height = "20" width  = "20">
+                    </a>
+                </div> 
+
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div> --> 
+
+            </div>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Deep Shree</span>
+              <!--  </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+
+
+  
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+    <script type="text/javascript">
+
+    function openPdf(e, path, redirect) {
+        // stop the browser from going to the href
+        e = e || window.event; // for IE
+        e.preventDefault(); 
+
+        // launch a new window with your PDF
+        window.open(path, 'somename', ... /* options */);
+
+        // redirect current page to new location
+        window.location = redirect;
+    }
+
+</script>
+
+</body>
+
+</html>
